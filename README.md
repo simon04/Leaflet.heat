@@ -1,15 +1,15 @@
 Leaflet.heat
 ==========
 
-A tiny, simple and fast [Leaflet](http://leafletjs.com) heatmap plugin.
+A tiny, simple and fast [Leaflet](https://leafletjs.com) heatmap plugin.
 Uses [simpleheat](https://github.com/mourner/simpleheat) under the hood,
 additionally clustering points into a grid for performance.
 
 
 ## Demos
 
-- [10,000 points &rarr;](http://leaflet.github.io/Leaflet.heat/demo)
-- [Adding points dynamically &rarr;](http://leaflet.github.io/Leaflet.heat/demo/draw.html)
+- [10,000 points &rarr;](https://leaflet.github.io/Leaflet.heat/demo)
+- [Adding points dynamically &rarr;](https://leaflet.github.io/Leaflet.heat/demo/draw.html)
 
 
 ## Basic Usage
@@ -48,7 +48,7 @@ Constructs a heatmap layer given an array of points and an object with the follo
 - **pane** - Map pane where the heat will be drawn. Defaults to 'overlayPane'.
 
 Each point in the input array can be either an array like `[50.5, 30.5, 0.5]`,
-or a [Leaflet LatLng object](http://leafletjs.com/reference.html#latlng).
+or a [Leaflet LatLng object](https://leafletjs.com/reference.html#latlng).
 
 Optional third argument in each `LatLng` point (`altitude`) represents point intensity.
 Unless `max` option is specified, intensity should range between `0.0` and `1.0`.
